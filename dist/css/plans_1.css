@@ -1,0 +1,123 @@
+
+.plans_main {
+	margin: -5em auto 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-gap: 50px;
+	max-width: 100em;
+	align-items: start;
+}
+
+main {
+	margin: 0 20px;
+}
+
+@media (min-width:900px) and (max-width:1300px) {
+	.x {
+		display: none
+	}
+}
+
+@media (max-width:375px) {
+	.x {
+		display: none
+	}
+}
+
+body>header {
+	position: unset;
+	background-image:url('https://the-knowledge-brokers.sirv.com/expertbase/do1.webp');
+}
+
+.plans_itm {
+	padding: 50px 30px;
+	background: #fff;
+	font-size: 14px;
+	margin-bottom: 50px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.plans_itm:hover {
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+	background: #fff;
+	border-color: #fff;
+}
+
+.plansh2 {
+	font-family: unset;
+	font-style: normal;
+	font-size: 2.5em;
+	margin-bottom: 20px
+}
+
+.premium_btn {
+	box-shadow: inset 0px 1px 0px 0px #e184f3;
+	background: linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+	background-color: #c123de;
+	border-radius: 6px;
+	border: 1px solid #a511c0;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #9b14b3;
+	width: 100%;
+}
+
+.premium_btn:hover {
+	background: linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	background-color: #a20dbd;
+}
+
+.greenbtn {
+	width: 100%
+}
+
+strong {
+	position: relative;
+}
+
+strong::after {
+	content: "";
+	position: absolute;
+	bottom: -0.8rem;
+	left: -0.5rem;
+	right: -0.5rem;
+	height: 1rem;
+	background-image: url(https://the-knowledge-brokers.sirv.com/expertbase/underline.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.plans_faq {
+	margin: 0 auto 100px;
+	background: #fff;
+	border-radius: 6px;
+	padding: 4.5em 9em;
+	position: relative;
+	width: 60em;
+	max-width: calc(100% - 6em);
+}
+
+@media (max-width: 810px) {
+	.plans_faq {
+		max-width: calc(100% - 40px);
+		padding: 50px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.plans_main {
+		margin: -2em auto 50px;
+	}
+}
+
+@media (max-width: 500px) {
+	.plans_faq {
+		padding: 30px 1.5em 3em;
+	}
+}
