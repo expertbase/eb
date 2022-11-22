@@ -434,7 +434,7 @@ a:focus,a:hover,a:active {
 }
 
 .header,.header1 {
-	background-image:url('https://the-knowledge-brokers.sirv.com/expertbase/for-experts.jpg?profile=ebbg');
+	background-image:url('https://the-knowledge-brokers.sirv.com/expertbase/for-experts.jpg?profile=ebbg&canvas.height=700&canvas.position=north');
 	justify-content:center;
 	min-height:600px;
 }
