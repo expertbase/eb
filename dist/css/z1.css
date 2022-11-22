@@ -434,14 +434,11 @@ a:focus,a:hover,a:active {
 }
 
 .header,.header1 {
-	background-image:url('https://the-knowledge-brokers.sirv.com/expertbase/helloyou.jpg?profile=ebbg');
+	background-image:url('https://the-knowledge-brokers.sirv.com/expertbase/for-experts.jpg?profile=ebbg');
 	justify-content:center;
 	min-height:600px;
 }
 
-.header1 {
-	background-image:url('https://the-knowledge-brokers.sirv.com/expertbase/do1.webp');
-}
 .header-logo {
 	margin:0;
 }
