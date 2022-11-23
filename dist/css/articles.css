@@ -11,7 +11,7 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	gap: 10%;
+	gap: 8%;
 }
 .wrapper {
 	display: flex;
@@ -32,13 +32,14 @@ body {
 	align-content: center;
 	background: #fff;
 	margin-top: 55px;
-	background-image: url("https://the-knowledge-brokers.sirv.com/expertbase/de.jpg?format=webp&q=70");
+	background-image: url("https://the-knowledge-brokers.sirv.com/expertbase/artbg.jpg?brightness=-40&w=2000");
 	background-color: #000;
     background-position: center;
     background-size: cover;
 }
 .bc_profile,.bc_profile a {
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     color: #202020;
     font-size: 12px;
     text-transform: uppercase;
@@ -75,12 +76,6 @@ main {
 		padding: 3em 1em;
 		min-height: 450px;
 	}
-	.ctr_sm {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 10px;
-	}
 }
 @media (max-width: 895px) {
 	.header_wrapper {
@@ -89,11 +84,14 @@ main {
 }
 .h1flx {
 	display: flex;
-	gap: 10px;
-	font-size: 2.5em;
-	margin: 0;
-	align-items: center;
-	text-align: center;
+    gap: 10px;
+    font-size: 2.75em;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 0px #000;
 }
 .content_full {
 	background-color: #fff;
@@ -154,6 +152,16 @@ main {
 		width: 100%;
 		margin: 0;
 	}
+	.ctr_sm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	}
+	.pmainname{
+		color: #fff;
+	}
+
 }
 .icon_set, .set {
 	display: flex;
@@ -179,8 +187,7 @@ main {
 	transition: background-color .2s ease-in-out;
 	min-width: 130px;
 	justify-content: center;
-	background-color: #e2a400;
-	background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0));
+	background-color: #ff9800;
 	cursor: pointer;
 }
 .icons:hover {
@@ -250,7 +257,6 @@ main {
 .grey, .grey:hover {
 	background: #b4b4b4;
 	color: #7a7a7a;
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0))
 }
 .style {
 	font-weight: 600;
@@ -262,8 +268,7 @@ main {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	background-color: #e2a400;
-	background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0));
+	background-color: #ff9800;
 }
 .style:hover {
 	background-color: #976d00;
@@ -487,9 +492,9 @@ section {
 	border-radius: 50%;
 }
 .cat {
-	font-size: 13px;
 	text-transform: uppercase;
-	font-weight: 600;
+    font-weight: 700;
+    color: #fff;
 }
 .bf, .in_green {
 	margin-bottom: 20px;
@@ -1315,18 +1320,17 @@ td {
 	font-size: 13px;
 }
 .pmainname {
-	color: #976d00;
-	margin: 0;
 	font-weight: 700;
 }
 .labels {
 	display: flex;
 	gap: 10px;
 	flex-wrap: wrap;
-	justify-content: center;
+	/* justify-content: center; */
+	margin-top: 30px;
 }
 .label {
-	color: #fff;
+	color: #000;
 	font-weight: 700;
 	padding: 7px 10px;
 	font-size: 12px;
@@ -1334,9 +1338,10 @@ td {
 	white-space: nowrap;
 	display: flex;
 	justify-content: center;
+	min-width: 94px;
 	align-items: center;
-	background-color: #e2a400;
-	background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0));
+	background-color: #ffffff;
+	border: 1px solid #e0dddd;
 }
 .c_flex {
 	display: flex;
@@ -1357,9 +1362,10 @@ h1 {
 	font-size: 18px;
 }
 h2 {
-	font-size: 1.75em;
-	color: #000;
-	font-weight: 500;
+	font-size: 2.5em;
+    color: #000;
+    font-weight: 700;
+    font-family: sans-serif;
 }
 h3 {
 	font-size: 1.5em;
@@ -1414,6 +1420,7 @@ h3 {
 	display: flex;
 	justify-content: center;
 	padding: 0;
+	color: #fff;
 }
 .pointer {
 	cursor: pointer;
