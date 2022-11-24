@@ -7,7 +7,7 @@ body {
 }
 .header_wrapper {
 	display: flex;
-	width: 1100px;
+	width: 50em;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
@@ -30,12 +30,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	background: #fff;
 	margin-top: 55px;
-	background-image: url("https://the-knowledge-brokers.sirv.com/expertbase/artbg.jpg?brightness=-40&w=2000");
+	background-image: url("https://the-knowledge-brokers.sirv.com/expertbase/artbg.jpg?w=2250&cy=350&ch=850&brightness=-40");
 	background-color: #000;
     background-position: center;
-    background-size: cover;
 }
 .bc_profile,.bc_profile a {
     padding-top: 30px;
@@ -1412,6 +1410,7 @@ h3 {
 	background-color: #673ab7;
 	max-width: 60px;
 	height: 2em;
+    color: #fff;
 }
 .pop {
 	background-color: tomato;
@@ -1601,10 +1600,9 @@ input.check:focus+label {
     color: #000;
 }
 .comments_grid {
-	display:grid;
-	grid-auto-columns:5em 1fr 10em;
-	padding:30px 10px;
-	line-height:normal;
+	display: flex;
+    padding: 30px 0;
+    line-height: 1.42rem;
 }
 
 .comments_content {
@@ -1614,7 +1612,7 @@ input.check:focus+label {
 }
 
 .comments_pic {
-	grid-column:1;
+	padding: 0 4% 0 0;
 }
 
 .comment{
