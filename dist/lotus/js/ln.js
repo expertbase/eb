@@ -114,6 +114,7 @@ var splide = new Splide( '.splide', {
   type   : 'loop',
    gap: '2em',
    perPage: 4,
+   perMove: 1,
   breakpoints: {
 		640: {
 			perPage: 1,
@@ -125,4 +126,17 @@ var splide = new Splide( '.splide', {
 });
 
 splide.mount();
+
+
+// button to formfield
+
+const buttons = document.querySelectorAll(".button-x");
+const areaField = document.getElementById("texthere");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    areaField.value = "I've got a query about Nano Surface Coatings in the " + button.dataset.asks + " sector: ";
+  });
+});
+
 
