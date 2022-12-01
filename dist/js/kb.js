@@ -21,7 +21,7 @@ $(document).ajaxStart(function() {
 	$(window).ready(function () {
 		$.browserDetect();
 
-		loadScript(plugin_path + 'bootstrap/js/bootstrap.min.js', function() {
+		loadScript('https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js', function() {
 
 			Init(false);
 
