@@ -2801,22 +2801,23 @@ input.check:focus+label {
 }
 
 .previewer {
-    background-color: #00bcd4
+    background-color: #ff5722
 }
 
 .previewer,.expirer {
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
+    height: 100px;
     position: fixed;
     margin: 0;
     z-index: 9999;
-    bottom: 70px;
+    bottom: 0;
     width: 100%;
     color: #fff;
     font-weight: 700;
     letter-spacing: .2em;
-    font-size: 28px
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg_proti {
