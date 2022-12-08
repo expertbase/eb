@@ -1497,18 +1497,19 @@ ul, ol {
 	background-color: #f44336;
 }
 .previewer, .expirer {
-	height: 70px;
-	line-height: 70px;
-	text-align: center;
-	position: fixed;
-	margin: 0;
-	z-index: 9999;
-	bottom: 70px;
-	width: 100%;
-	color: #fff;
-	font-weight: 700;
-	letter-spacing: .2em;
-	font-size: 28px;
+	height: 100px;
+    position: fixed;
+    margin: 0;
+    z-index: 9999;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .2em;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
