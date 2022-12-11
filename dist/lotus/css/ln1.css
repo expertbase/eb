@@ -64,6 +64,10 @@
   color: #0077b5;
 }
 
+.lazily {
+   background-image: none;
+   background-color: #F1F1FA;
+}
 
 
 @charset "UTF-8";/*!
